@@ -1,7 +1,7 @@
 # Личный проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Алексей Рыбин](https://up.htmlacademy.ru/adaptive/11/user/47219).
-* Наставник: `Неизвестно`.
+* Наставник: [Алексей Белов](https://up.htmlacademy.ru/adaptive/11/user/96038).
 
 ---
 
