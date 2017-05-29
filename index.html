@@ -6,13 +6,90 @@
   </head>
   <body>
     <header class="page-header">
-      <h1 class="visually-hidden">HTML Academy: Pink</h1>
-      <div class="page-header__logo">
-        <img src="#" alt="HTML Academy: Pink">
+      <div class="page-header__wrapper">
+        <h1 class="visually-hidden">HTML Academy: Pink</h1>
+        <div class="page-header__logo">
+          <img src="#" alt="HTML Academy: Pink">
+        </div>
+        <nav class="main-nav  main-nav--closed  main-nav--nojs">
+          <button class="main-nav__toggle" type="button"></button>     
+          <ul class="main-nav__items">
+            <li class="main-nav__item  main-nav__item--active">Главная</li>
+            <li class="main-nav__item">Главная</li>
+            <li class="main-nav__item">Фотографии</li>
+            <li class="main-nav__item">HTML Academy</li>
+          </ul>
+        </nav>
+        <section class="page-header__download">
+            <a href="#" alt="Скачать приложение">Скачать приложение</a>
+            <ul class="page-header__download-items">
+              <li class="download-item"><a href="#" alt="Скачать для iPhone, iPad, OS X">iPhone, iPad, OS X</a></li>
+              <li class="download-item"><a href="#" alt="Скачать для Android">Android</a></li>
+              <li class="download-item"><a href="#" alt="Скачать для Widndows Phone, Windows 8">Windows</a></li>
+            </ul>
+            <p>Доступно для iPhone, iPad, Android, Widndows Phone, OS X, Windows 8</p>
+        </section>
       </div>
-      <nav class="main-nav  main-nav--closed  main-nav--nojs">
-        <button class="main-nav__tobble" type="button"></button>
-      </nav>
     </header>
+    <main class="page-main">  
+      <section class="page-main__our-features">1
+        <div class="page-main__wrapper">
+          <h2 class="stats__title visually-hidden">Наши преимущества</h2>
+          <div class="page-main__our-feature-item">
+            <b>Поднимает настроение</b>
+            <p>Приложение позволит вам победить осеннююю хандру и депрессию буквальнов несколько кликов!</p>
+          </div>
+          <div class="page-main__our-feature-item">
+            <b>Меняет мирк вокруг</b>
+            <p>Сделайте снимок и украсьте уго смайликом или текстовой подписью, чтобы усилить эффект</p>
+          </div>
+          <div class="page-main__our-feature-item">
+            <b>Заводит новых друзей</b>
+            <p>Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
+          </div>
+          <img src="#" alt="Наше приложение">
+        </div>
+      </section>        
+      <section class="rewievs  slider">
+        <div class="review-wrapper">
+          <blockquote class="reviews__item slider__item">
+            <cite class="review__auhor-name">Николай Петров</cite>
+            <p>"Это прилжение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии"</p>
+          </blockquote>
+          <input class="slider__input" type="radio" name="rewievs" id="reviews-input-1" checked>
+          <input class="slider__input" type="radio" name="rewievs" id="reviews-input-2">  
+          <input class="slider__input" type="radio" name="rewievs" id="reviews-input-3">
+        </div>
+      </section>
+      <section class="price">
+        <div class="price-wrapper">
+          <table class="price__our-table-price">
+            <th>Стандарт <span class="numbers-price">3,99USD</span></th>
+            <td>Розовый фильтр</td>
+            <td>Смайлики</td>
+            <td>Комментарии</td>
+          </table>
+          <input class="slider__input" type="radio" name="rewievs" id="reviews-input-1" checked>
+          <input class="slider__input" type="radio" name="rewievs" id="reviews-input-2">  
+          <input class="slider__input" type="radio" name="rewievs" id="reviews-input-3">
+        </div>
+      </section>
+      <footer class="page-footer">  
+        <div class="footer-wrapper">
+          <p class="page-footer__contacts">  
+          `<b>Остались вопросы? Свяжитесь с нами!</b>
+          <b class="contacts__info-title">Звоните:</b>
+          <a href="tel:+78125556666"><span class="contact__phone-number">Тел:</span>+7 (812) 555-66-66</a>
+          <b class="contact__info-title">Пишите:</b>
+          <span class="contact__email">mail@htmlacademy.ru</span>
+          <b class="contact__info-title">Приезжайте в гости:</b>
+          <span class="contats__adress">ул. Большая Конюшенная, 19/8</span>
+          </p> 
+        </div>
+        <div class="page-footer__map">
+          
+        </div>
+      </footer>
+    </main>
   </body>
 </html>

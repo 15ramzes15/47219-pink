@@ -5,6 +5,91 @@
     <title>HTML Academy: Пинк</title>
   </head>
   <body>
-
+    <header class="page-header">
+      <div class="page-header__wrapper">
+        <h1 class="visually-hidden">HTML Academy: Pink</h1>
+        <div class="page-header__logo">
+          <img src="#" alt="HTML Academy: Pink">
+        </div>
+        <nav class="main-nav  main-nav--closed  main-nav--nojs">
+          <button class="main-nav__toggle" type="button"></button>     
+          <ul class="main-nav__items">
+            <li class="main-nav__item  main-nav__item--active">Главная</li>
+            <li class="main-nav__item">Главная</li>
+            <li class="main-nav__item">Фотографии</li>
+            <li class="main-nav__item">HTML Academy</li>
+          </ul>
+        </nav>
+        <b class="page-header__header-title-form">Конкурс на самое безбашенное путешествие с Пинк</b>
+      </div>
+    </header>
+    <main class="main-inner-form">  
+      <div class="inner-page__wrapper"> 
+        <h2 class="inner-page__title">Поделитесь своей историей и получите анс выиграть ценный приз - 1000 миль на вашу бонусную карту!</h2>
+        <form class="inner-page__form" form action="https://echo.htmlacademy.ru" method="post">
+          <fieldset class="inner-page__name">       
+            <input class="name-field" type="text" name="name-field-group" id="option1">
+            <label for="option1">Фамилия:</label>
+            <input class="name-field" type="text" name="name-field-group" id="option2">
+            <label for="option2">Имя:</label>
+            <input class="name-field" type="text" name="name-field-group" id="option3">
+            <label for="option3">Отчество:</label>
+          </fieldset>
+          <fieldset class="inner-page__achievements">
+            <legend class="form__title">Ваши безбашенные достижения в путушествии</legend>
+            <input class="achievements-field" type="checbox" name="achievements-field-group" id="option4" checked>
+            <label for="option4">Сделал селфи с акулой</label>
+            <input class="achievements-field" type="checkbox" name="achievements-field-group" id="option5" checked>
+            <label for="option5">Обгорел на пляже</label>
+            <input class="achievements-field" type="checkbox" name="achievements-field-group" id="option6">
+            <label for="option6">Видела Чака Норриса</label>
+            <input class="achievements-field" type="checbox" name="achievements-field-group" id="option7" >
+            <label for="option7">Накупил сувениров</label>
+            <input class="achievements-field" type="checkbox" name="achievements-field-group" id="option8" checked>
+            <label for="option8">Удержал башню</label>
+            <input class="achievements-field" type="checkbox" name="achievements-field-group" id="option9">
+            <label for="option9">Разгромил отель</label>
+          </fieldset>
+          <fieldset class="inner-page__tel-email">
+            <input class="tel-mail-field" type="text" name="te-mail-field-group" id="option10" checked>
+            <label for="option10">Сделал селфи с акулой</label>
+            <input class="tel-mail-field" type="email" name="tel-mail-field-group" id="option11" checked>
+            <label for="option11">Обгорел на пляже</label>
+          </fieldset>
+          <fieldset class="inner-page__app">
+            <legend class="form__title">C каким приложение путешествовали?</legend>
+            <input class="app-field" type="checbox" name="app-field-group" id="option12" checked>
+            <label for="option12">Сделал селфи с акулой</label>
+            <input class="app-field" type="checkbox" name="app-field-group" id="optio13">
+            <label for="option13">Обгорел на пляже</label>
+            <input class="app-field" type="checkbox" name="app-field-group" id="option14">
+            <label for="option14">Видела Чака Норриса</label>
+          </fieldset>
+          <fieldset class="inner-page__decr">
+            <legend class="form__title">C каким приложение путешествовали?</legend>
+            <input class="decr-field" type="text" placeholder="Можно прям в красках, не стесняясь" name="decr-field-group" id="option15">
+            <label for="option15">Опишите свои эмоции</label>
+            <button class="btn form__submit" type="button">Отправить форму</button>
+            <p class="form-tip"><span class="tip-star">*</span> - обязательные поля</p>
+          </fieldset>
+        </form>
+      </div>
+    </main>
+    <footer class="footer-inner-form">
+      <div class="footer-inner-form__wrapper">
+        <img src="#" alt="Логотип PINK">
+        <p class="footer-inner__social">
+          <span>
+            <a class="social-link social-link--vk" href="#">Мы в контакте</a>
+            <a class="social-link social-link--fb" href="#">Мы в Фейсбуке</a>
+            <a class="social-link social-link--in" href="#">Мы в Инстаграме</a>
+          </span>
+        </p>
+        <p class="footer-inner__copyright">
+          Разработано:
+          <a class="btn page-footer__copyright-link" href="#">HTML Academy</a>
+        </p>
+      </div>  
+    </footer>
   </body>
 </html>
