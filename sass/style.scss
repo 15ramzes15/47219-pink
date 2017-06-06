@@ -1,0 +1,20 @@
+body {
+  font-family: "Open Sans", "Arial",sans-serif;
+}
+
+@import "normalize.scss";
+
+@import "variables.scss";
+@import "mixins.scss";
+
+@import "global/fonts.scss";
+
+@import "blocks/page-header.scss";
+@import "blocks/page-main.scss";
+@import "blocks/main-inner-photo.scss";
+@import "blocks/main-inner-form.scss";
+@import "blocks/reviews.scss";
+@import "blocks/price.scss";
+@import "blocks/page-footer.scss";
+@import "blocks/footer-inner.scss";
+
