@@ -3,47 +3,49 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Пинк</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <header class="page-header">
       <div class="page-header__wrapper">
         <h1 class="visually-hidden">HTML Academy: Pink</h1>
         <div class="page-header__logo">
-          <a src="#" alt="HTML Academy: Pink"></a>
+          <a href="index.html"><img src="img/logo-pink-white-mobile.svg" alt="HTML Academy: Pink"></a>
         </div>
         <nav class="main-nav  main-nav--closed  main-nav--nojs">
           <button class="main-nav__toggle" type="button"></button>     
           <ul class="main-nav__items">
-            <li class="main-nav__item  main-nav__item--active"><a href="#">Главная</a></li>
-            <li class="main-nav__item"><a href="#">Главная</a></li>
-            <li class="main-nav__item"><a href="#">Фотографии</a></li>
-            <li class="main-nav__item"><a href="#">HTML Academy</a></li>
+            <li class="main-nav__item  main-nav__item--active"><a href="index.html">Главная</a></li>
+            <li class="main-nav__item"><a href="photo.html">Фотографии</a></li>
+            <li class="main-nav__item"><a>Конкурс</a></li>
+            <li class="main-nav__item"><a href="https://htmlacademy.ru">HTML Academy</a></li>
           </ul>
         </nav>
         <b class="page-header__header-title-form">Конкурс на самое безбашенное путешествие с Пинк</b>
       </div>
     </header>
-    <main class="main-inner-page form">  
+    <main class="main-inner-form">  
       <div class="inner-page__wrapper"> 
-        <h2 class="inner-page__title">Поделитесь своей историей и получите анс выиграть ценный приз - 1000 миль на вашу бонусную карту!</h2>
+        <h2 class="inner-page__title">Поделитесь своей историей и получите шанс выиграть ценный приз - 1000 миль на вашу бонусную карту!</h2>
         <form class="inner-page__form" form action="https://echo.htmlacademy.ru" method="post">
-          <fieldset class="inner-page__name">       
+          <fieldset class="inner-page__name">
+            <label for="option1">Фамилия:</label>       
             <input class="name-field" type="text" name="name-field-group" id="option1">
-            <label for="option1">Фамилия:</label>
-            <input class="name-field" type="text" name="name-field-group" id="option2">
             <label for="option2">Имя:</label>
-            <input class="name-field" type="text" name="name-field-group" id="option3">
+            <input class="name-field" type="text" name="name-field-group" id="option2">
             <label for="option3">Отчество:</label>
+            <input class="name-field" type="text" name="name-field-group" id="option3">
+            
           </fieldset>
           <fieldset class="inner-page__achievements">
-            <legend class="form__title">Ваши безбашенные достижения в путушествии</legend>
-            <input class="achievements-field" type="checbox" name="achievements-field-group" id="option4" checked>
+            <legend class="form__title">Ваши безбашенные достижения в путешествии</legend>
+            <input class="achievements-field" type="checkbox" name="achievements-field-group" id="option4" checked>
             <label for="option4">Сделал селфи с акулой</label>
             <input class="achievements-field" type="checkbox" name="achievements-field-group" id="option5" checked>
             <label for="option5">Обгорел на пляже</label>
             <input class="achievements-field" type="checkbox" name="achievements-field-group" id="option6">
             <label for="option6">Видела Чака Норриса</label>
-            <input class="achievements-field" type="checbox" name="achievements-field-group" id="option7" >
+            <input class="achievements-field" type="checkbox" name="achievements-field-group" id="option7" >
             <label for="option7">Накупил сувениров</label>
             <input class="achievements-field" type="checkbox" name="achievements-field-group" id="option8" checked>
             <label for="option8">Удержал башню</label>
@@ -51,14 +53,14 @@
             <label for="option9">Разгромил отель</label>
           </fieldset>
           <fieldset class="inner-page__tel-email">
-            <input class="tel-mail-field" type="text" name="te-mail-field-group" id="option10" checked>
             <label for="option10">Сделал селфи с акулой</label>
-            <input class="tel-mail-field" type="email" name="tel-mail-field-group" id="option11" checked>
+            <input class="tel-mail-field" type="text" name="te-mail-field-group" id="option10" checked>
             <label for="option11">Обгорел на пляже</label>
+            <input class="tel-mail-field" type="email" name="tel-mail-field-group" id="option11" checked>
           </fieldset>
           <fieldset class="inner-page__app">
             <legend class="form__title">C каким приложение путешествовали?</legend>
-            <input class="app__app-field" type="checbox" name="app-field-group" id="option12" checked>
+            <input class="app__app-field" type="checkbox" name="app-field-group" id="option12" checked>
             <label for="option12">Сделал селфи с акулой</label>
             <input class="app__app-field" type="checkbox" name="app-field-group" id="optio13">
             <label for="option13">Обгорел на пляже</label>
@@ -77,7 +79,7 @@
     </main>
     <footer class="footer-inner">
       <div class="footer-inner__wrapper">
-        <a src="#" alt="Логотип PINK"></a>
+        <a><img src="img/logo-pink-blue-mobile.svg" alt="Логотип PINK"></a>
         <p class="footer-inner__social">
           <span>
             <a class="social-link social-link--vk" href="#">Мы в контакте</a>
@@ -87,7 +89,7 @@
         </p>
         <p class="footer-inner__copyright">
           Разработано:
-          <a class="btn page-footer__copyright-link" href="#">HTML Academy</a>
+          <a class="btn page-footer__copyright-link"><img src="img/htmlacademy.svg" alt=""></a>
         </p>
       </div>  
     </footer>
