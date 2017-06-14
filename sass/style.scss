@@ -1,10 +1,5 @@
-body {
-  font-family: "Open Sans", "Arial",sans-serif;
-}
-
-@import "normalize.scss";
-
 @import "variables.scss";
+@import "scaffolding.scss";
 @import "mixins.scss";
 
 @import "global/fonts.scss";
